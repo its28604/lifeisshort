@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.lifetime-grid {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(52, 1fr); /* Assuming 52 weeks per row */
+    grid-gap: 2px;
+}
+
+.week-block {
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+    display: inline-block;
+}
